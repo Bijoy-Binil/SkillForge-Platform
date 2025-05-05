@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="w-64 h-screen m-7 -mt-18 text-white p-6 flex flex-col">
-      <span className="text-[18px] leading-[1.5] tracking-[2px] font-[500] font-['Plus Jakarta Display','Helvetica','Arial',sans-serif] bg-gradient-to-r from-white to-transparent text-transparent bg-clip-text inline-block relative z-[1] max-w-full mx-5 opacity-100">
+       <Link to="/" className="text-[18px] leading-[1.5] tracking-[2px] font-[500] font-['Plus Jakarta Display','Helvetica','Arial',sans-serif] bg-gradient-to-r from-white to-transparent text-transparent bg-clip-text inline-block relative z-[1] max-w-full mx-5 opacity-100">
         SKILL FORGE
-      </span>
+      </Link>
 
       <div className="w-full h-px my-5 ml-[-17px] opacity-50 bg-gradient-to-r from-transparent via-white to-transparent" />
 

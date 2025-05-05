@@ -8,7 +8,7 @@ const MoneyCard = ({name,icons}) => {
         {/* Text content */}
         <div>
      
-          <h2 className="text-lg font-semibold mt-1 ">
+          <h2 className="text-sm cursor-pointer hover: font-semibold mt-1 ">
           <span className="mr-2"><i className={icons}></i></span>{name} <span className="text-xs  text-green-400 ml-2">%</span>
           </h2>
         </div>

@@ -7,7 +7,7 @@ const LearningPath = () => {
       <Sidebar />
 
       {/* Right Content Area */}
-      <div className="flex flex-col flex-1 items-center pt-12 px-4">
+      <div className="flex flex-col flex-1 mt-5 items-center pt-12 px-4">
         {/* Card */}
         <div className="bg-gradient-to-br from-[#060b28f0] to-[#0a0e234d] backdrop-blur-lg rounded-3xl shadow-xl p-8 w-320 h-160 border-0 flex flex-col items-center ">
           {/* Header */}
@@ -24,10 +24,13 @@ const LearningPath = () => {
           </div>
 
           {/* Placeholder for content */}
-          <div className="flex flex-1 justify-center items-center text-gray-400 text-sm italic">
-            {/* Future content like learning path list or progress bar can go here */}
-            <span>Explore your learning journey...</span>
-          </div>
+          <div className="flex flex-col absolute bottom-90 left-10 text-blue-500 text-lg font-semibold space-y-2">
+  <p>My Learning Paths</p>
+  <p className="text-sm font-normal text-gray-300">
+    You haven't enrolled in any learning paths yet. Browse the available paths below or create your own.
+  </p>
+</div>
+
         </div>
       </div>
     </div>

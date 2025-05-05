@@ -7,7 +7,7 @@ const Skills = () => {
       <Sidebar />
 
       {/* Right Content Area */}
-      <div className="flex flex-col flex-1 items-center pt-12 px-4">
+      <div className="flex flex-col flex-1 mt-5 items-center pt-12 px-4">
         {/* Card */}
         <div className="bg-gradient-to-br from-[#060b28f0] to-[#0a0e234d] backdrop-blur-lg rounded-3xl shadow-xl p-8 w-320 h-160 border-0 flex flex-col items-center">
           {/* Header */}
@@ -23,10 +23,10 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="absolute bottom-4 left-6 text-xs text-gray-300">
+          <div className="absolute bottom-70 left-20 text-lg  font-semibold text-gray-300">
             0 Skills in Progress
           </div>
-          <div className="absolute bottom-4 right-6 text-xs text-gray-300">
+          <div className="absolute bottom-70 right-20 text-lg font-semibold text-gray-300">
             0% Skills Completion
           </div>
         </div>

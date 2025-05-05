@@ -7,7 +7,7 @@ const GitHub = () => {
       <Sidebar />
 
       {/* Right Content Area */}
-      <div className="flex flex-col flex-1 items-center pt-12 px-4">
+      <div className="flex flex-col flex-1 mt-5 items-center pt-12 px-4">
         {/* Card */}
         <div className="relative bg-gradient-to-br from-[#060b28f0] to-[#0a0e234d] backdrop-blur-lg rounded-3xl shadow-xl p-8 w-320 min-h-160 text-white flex flex-col gap-6">
           {/* Header */}
