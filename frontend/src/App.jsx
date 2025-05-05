@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
 import {Route,Routes} from 'react-router-dom'
-import Dashboard from "./components/pages/Dashboard";
-import LearningPath from "./components/pages/LearningPath";
-import Skills from "./components/pages/Skills";
-import JobMatches from "./components/pages/JobMatches";
-import ResumeBuilder from "./components/pages/ResumeBuilder";
-import GitHub from "./components/pages/GitHub";
+import Dashboard from "./pages/Dashboard";
+import LearningPath from "./pages/LearningPath";
+import Skills from "./pages/Skills";
+import JobMatches from "./pages/JobMatches";
+import ResumeBuilder from "./pages/ResumeBuilder";
+import GitHub from "./pages/GitHub";
 function App() {
 
 
