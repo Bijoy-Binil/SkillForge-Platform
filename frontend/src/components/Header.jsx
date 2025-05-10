@@ -1,12 +1,12 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useLocation,useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../Context/AuthContext';
+
 
 const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { logout: authLogout } = useAuth();
+
 
 const [username,setUsername]=useState("")
 const [loggedIn,setLoggedIn]=useState(false)
@@ -46,7 +46,7 @@ const handleLogout = async () => {
       await axios.post("http://127.0.0.1:8000/api/logout/", {"refresh": refresh_token })
 
       // Call the AuthContext logout function to properly update the auth state
-      authLogout();
+
       
       localStorage.removeItem("accessToken");
       localStorage.removeItem("refreshToken");
